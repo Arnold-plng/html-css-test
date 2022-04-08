@@ -1,0 +1,76 @@
+.* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+/*
+    Mettre l'image en BackGround derrière le Logo et le Menu
+    */
+    background-image: url(https://cdn.pixabay.com/photo/2020/10/21/18/07/laptop-5673901_960_720.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+    padding: 20px;
+    border: solid 19px #f4f4f4;
+    border-style: dotted;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    margin-left: 15px;
+}
+
+.menu ul li a:hover {
+    color: #999;
+}
+
+.logo a {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.espace-header {
+    padding: 25px 0;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 15px;
+    border: solid 1px #f4f4f4;
+}
+
